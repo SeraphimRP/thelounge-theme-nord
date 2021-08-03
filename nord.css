@@ -352,5 +352,5 @@ body {
 }
 
 #chat .msg[data-type="nick"] .from::before {
-    color: var(--highlight-bg-color);
+    color: var(--highlight-color);
 }
