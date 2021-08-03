@@ -173,6 +173,17 @@ body {
     color: var(--body-color);
 }
 
+.btn:active,
+.btn:focus,
+.input:focus {
+    box-shadow: 0 0 0 3px rgba(143, 188, 187, 0.5);
+}
+
+.input:not(:disabled):focus,
+.input:not(:disabled):hover {
+    border-color: var(--highlight-color);
+}
+
 #chat .show-more .btn {
     background: var(--unread-marker-color);
     color: var(--body-bg-color);
