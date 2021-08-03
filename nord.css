@@ -51,12 +51,6 @@ html {
     scrollbar-width: thin;
 }
 
-#chat .msg[data-type="notice"] .content,
-#chat .msg[data-type="notice"] .time,
-#chat .msg[data-type="notice"] .user {
-    color: var(--highlight-color);
-}
-
 #loading .logo,
 #windows .logo {
     display: none;
@@ -74,6 +68,9 @@ html {
 .input {
     background-color: var(--background-light-color);
     color: var(--body-color);
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .jump-to-input .input {
@@ -163,6 +160,12 @@ body {
 
 #chat .action .content,
 #chat .action .from {
+    color: var(--highlight-color);
+}
+
+#chat .msg[data-type="notice"] .content,
+#chat .msg[data-type="notice"] .time,
+#chat .msg[data-type="notice"] .user {
     color: var(--highlight-color);
 }
 
@@ -368,4 +371,8 @@ body {
 #viewport .lt,
 #viewport .rt {
     color: var(--button-color);
+}
+
+.jump-to-input::before {
+    line-height: 30px !important;
 }
