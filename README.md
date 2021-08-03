@@ -4,7 +4,7 @@ Nordify your lounge.
 
 ## Install
 
-> `thelounge install thelounge-theme-nord`
+`thelounge install thelounge-theme-nord`
 
 ## Credits
 
