@@ -370,7 +370,7 @@ body {
 }
 
 .chat .toggle-text a {
-    color: var(--link-color);
+    color: var(--link-color) !important;
 }
 
 #chat .msg[data-type="nick"] .from::before {
