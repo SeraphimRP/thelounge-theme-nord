@@ -355,3 +355,10 @@ body {
 #chat .msg[data-type="nick"] .from::before {
     color: var(--highlight-color);
 }
+
+#chat button.mentions,
+#chat button.menu,
+#viewport .lt,
+#viewport .rt {
+    color: var(--button-color);
+}
