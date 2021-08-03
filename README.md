@@ -9,3 +9,7 @@ Nordify your lounge.
 ## Credits
 
 This theme is based on [SpaceLenore](https://github.com/SpaceLenore)'s [thelounge-theme-dracula](https://github.com/SpaceLenore/thelounge-theme-dracula), as I liked the layout CSS.
+
+## Screenshot
+
+![screenshot](screenshot.png)
