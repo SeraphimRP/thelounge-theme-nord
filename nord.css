@@ -350,3 +350,7 @@ body {
 .chat .toggle-text a {
     color: var(--link-color);
 }
+
+#chat .msg[data-type="nick"] .from::before {
+    color: var(--highlight-bg-color);
+}
