@@ -26,6 +26,7 @@
     --sidebar-color: #3b4252;
     --background-light-color: #44475a;
     --background-error: #bf616a;
+    --window-heading-color: #8fbcbb;
 }
 
 ::placeholder {
@@ -48,6 +49,12 @@
 html {
     scrollbar-color: #2e3440 #8fbcbb;
     scrollbar-width: thin;
+}
+
+#chat .msg[data-type="notice"] .content,
+#chat .msg[data-type="notice"] .time,
+#chat .msg[data-type="notice"] .user {
+    color: var(--highlight-color);
 }
 
 #loading .logo,
